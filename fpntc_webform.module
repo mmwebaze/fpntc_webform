@@ -1,0 +1,5 @@
+<?php
+function fpntc_webform_webform_handler_info_alter(array &$definitions){
+//  print_r(array_keys($definitions['remote_post']['class']));
+  $definitions['remote_post']['class'] = 'Drupal\fpntc_webform\Plugin\WebformHandler\FpntcRemotePostWebformHandler';
+}

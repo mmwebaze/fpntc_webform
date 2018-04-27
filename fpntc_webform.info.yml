@@ -1,0 +1,5 @@
+name: FPNTC Webform
+type: module
+description: FPNTC module extending certain Webform settings
+core: 8.x
+package: fpntc
